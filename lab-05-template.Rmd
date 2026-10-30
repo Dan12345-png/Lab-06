@@ -32,7 +32,7 @@ From image 1, i can see that the image doesnt not fully follow the four respects
 knitr::include_graphics("img/rose-pop-density-total-area-bw.jpg")
 ```
 
-_Write your comments about image 2 below_
+
 
 
 
@@ -83,7 +83,8 @@ glimpse(candy_df)
 How many observations and variables are in this dataset?
 Did you identify the type of variables, remember that this detail is crucial to create which kind of data visualization in general. 
 
-_Write your comments about results_
+1. 85 observations, 13 columns.
+2. 3 numerical, 1 character, 9 logical.
 
 # Data viz - One variable at a time
 

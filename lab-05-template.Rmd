@@ -186,6 +186,14 @@ facet_wrap(~fruity) +
   ) +
   theme_bw()
 
+
+
+```
+
+- Consider the similar pair by replacing chocolate with caramel, fruity and compare their results. 
+- Also include summary statistics details for this discussion by using the calculation below: 
+
+```{r}
 candy_rankings %>%
   group_by(chocolate) %>%
   summarise(
@@ -204,20 +212,6 @@ candy_rankings %>%
 
 candy_rankings %>%
   group_by(fruity) %>%
-  summarise(
-    n = n(),
-    mean_win = mean(winpercent),
-    median_win = median(winpercent)
-  )
-
-```
-
-- Consider the similar pair by replacing chocolate with caramel, fruity and compare their results. 
-- Also include summary statistics details for this discussion by using the calculation below: 
-
-```{r}
-candy_rankings %>%
-  group_by(chocolate) %>%
   summarise(
     n = n(),
     mean_win = mean(winpercent),

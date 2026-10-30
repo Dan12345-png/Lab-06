@@ -21,7 +21,7 @@ library(ggplot2)
 knitr::include_graphics("img/Speaking-the-world.jpg")
 ```
 
-_Write your comments about image 1 below_
+From image 1, i can see that the image doesnt not fully follow the four respects. In terms of mathematics, the bars are not to scale as for example, the number of English speakers should not be that close on the graph to that of the Chinese speakers. In terms of data, there is no source or date, and the title is not clear whether its native speakers or does it include people speaking it as a second language. You can use geom_bar() or geom_col() to create these graphs.
 
 
 
